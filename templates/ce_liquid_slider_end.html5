@@ -1,0 +1,14 @@
+<!-- indexer::stop -->
+</div>
+</div>
+
+<script>
+	$(function(){
+
+		$('#slider-<?php echo $this->sliderName; ?>').liquidSlider({
+			<?php echo $this->lsOptions; ?>
+		});
+
+});
+</script>
+<!-- indexer::continue -->
